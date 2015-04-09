@@ -22,6 +22,7 @@ app.controller('loginController', ['$scope', '$http', function($scope, $http) {
     };
     $scope.username = null;
     $scope.password = null;
+    $scope.alert = null;
   };
 
   var fullUrl = function(url) {

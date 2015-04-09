@@ -1,0 +1,16 @@
+#alertContainer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+#loginContainer {
+  margin-top: 100px;
+  padding-top: 15px;
+  border: 1px solid #ccc;
+}
+
+#afterLoginContainer {
+  margin: 15px auto;
+}
