@@ -7,6 +7,6 @@ Simple Client for SNU Principle and Practice of Software Development Assignment 
 
 Then you can check the result in http://localhost:5000
 
-If you want to bind another address, then `python app.py -b <host> -p <port>`
+If you want to bind another address, open app.py and modify last line to `app.run(host='$HOST', port=$PORT)`
 
-If you want to edit API root address, open app.py and modify app.config['API_ROOT'].
+If you want to edit API root address, open app.py and modify app.config['API\_ROOT'].
