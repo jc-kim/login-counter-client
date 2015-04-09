@@ -1,6 +1,7 @@
 import flask
 
 app = flask.Flask(__name__)
+app.config['API_ROOT'] = 'http://swpp1.thejc.kr'
 
 
 @app.route('/')
